@@ -22,6 +22,10 @@ gem 'jquery-rails'
 gem 'turbolinks'
 
 
+#gem "therubyracer" 
+#gem 'uglifier', '~> 2.6.1'
+gem 'uglifier', '~> 2.7'
+
 group :development, :test do
   gem 'sqlite3'
 end
