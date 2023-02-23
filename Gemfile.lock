@@ -79,7 +79,6 @@ GEM
       net-smtp
     method_source (1.0.0)
     mini_mime (1.1.2)
-    mini_portile2 (2.8.1)
     minitest (5.17.0)
     net-imap (0.3.4)
       date
@@ -144,8 +143,7 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
-    sqlite3 (1.6.1)
-      mini_portile2 (~> 2.8.0)
+    sqlite3 (1.6.1-x86_64-linux)
     thor (1.2.1)
     thread_safe (0.3.6)
     tilt (2.1.0)
@@ -172,7 +170,7 @@ DEPENDENCIES
   jbuilder (~> 2.5)
   jquery-rails
   listen (~> 3.0.5)
-  pg (~> 0.18.4)
+  pg
   puma (~> 3.0)
   rails (~> 5.0.0)
   sass-rails (~> 5.0)
