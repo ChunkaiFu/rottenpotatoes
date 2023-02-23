@@ -5,7 +5,7 @@ ruby "3.1.2"
 
 group :production do
   #gem 'pg' # for Heroku deployment
-  gem 'pg'
+  gem 'pg', '~>0.18.3'
 end
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
@@ -24,7 +24,8 @@ gem 'turbolinks'
 
 #gem "therubyracer" 
 #gem 'uglifier', '~> 2.6.1'
-gem 'uglifier', '~> 2.7'
+#gem 'uglifier', '~> 2.7'
+gem 'uglifier', '~> 4.2'
 
 group :development, :test do
   gem 'sqlite3'
