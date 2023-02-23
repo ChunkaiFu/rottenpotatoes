@@ -43,5 +43,5 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 group :producton do
-  gem 'pg', '~>0.18.4'
+  gem 'pg'
 end
