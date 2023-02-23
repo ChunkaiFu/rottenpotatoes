@@ -4,7 +4,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby "3.1.2"
 
 group :production do
-  gem 'pg' # for Heroku deployment
+  #gem 'pg' # for Heroku deployment
+  gem 'pg', '~> 0.11'
 end
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
@@ -15,6 +16,11 @@ gem "sprockets-rails"
 
 # Use sqlite3 as the database for Active Record
 # gem "sqlite3", "~> 1.4"
+
+
+gem 'jquery-rails'
+gem 'turbolinks'
+
 
 group :development, :test do
   gem 'sqlite3'
