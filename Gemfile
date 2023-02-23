@@ -4,7 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby "3.1.2"
 group :production do
   #gem 'pg' # for Heroku deployment
-  gem 'pg', '~> 0.18'
+  gem 'pg', '~> 1.1'
 end
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
